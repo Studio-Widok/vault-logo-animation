@@ -108,11 +108,12 @@ body {
 
     .default {
       transition: .5s;
+      transform: translate(108108px, 202591px) rotateX(0deg) translate(-108108px, -202591px);
     }
 
     .rotated {
       transition: .5s;
-      transform: rotateX(90deg);
+      transform: translate(108108px, 202591px) rotateX(90deg) translate(-108108px, -202591px);
     }
 
     &.active {
@@ -123,11 +124,11 @@ body {
       transform: translateX(2300px);
 
       .default {
-        transform: rotateX(180deg);
+        transform: translate(108108px, 202591px) rotateX(180deg) translate(-108108px, -202591px);
       }
 
       .rotated {
-        transform: rotateX(270deg);
+        transform: translate(108108px, 202591px) rotateX(270deg) translate(-108108px, -202591px);
       }
     }
 
@@ -135,11 +136,11 @@ body {
       transform: translateX(0px);
 
       .default {
-        transform: rotateX(360deg);
+        transform: translate(108108px, 202591px) rotateX(360deg) translate(-108108px, -202591px);
       }
 
       .rotated {
-        transform: rotateX(450deg);
+        transform: translate(108108px, 202591px) rotateX(450deg) translate(-108108px, -202591px);
       }
     }
   }

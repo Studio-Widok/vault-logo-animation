@@ -28,27 +28,27 @@ window.addEventListener('load', () => {
     key.addClass('active-2');
   }, 500);
 
-  // time -= 400;
+  time -= 400;
 
-  // letters.forEach(letter => {
-  //   queue(() => {
-  //     letter.toggleClass('active');
-  //   }, 400);
-  //   time -= 200;
-  // });
+  letters.forEach(letter => {
+    queue(() => {
+      letter.toggleClass('active');
+    }, 400);
+    time -= 200;
+  });
 
-  // time += 300;
+  time += 300;
 
-  // queue(() => {
-  //   key.addClass('active-3');
-  // }, 500);
+  queue(() => {
+    key.addClass('active-3');
+  }, 500);
 
-  // time -= 300;
+  time -= 300;
 
-  // smallLetters.forEach(letter => {
-  //   queue(() => {
-  //     letter.toggleClass('active');
-  //   }, 200);
-  //   time -= 185;
-  // });
+  smallLetters.forEach(letter => {
+    queue(() => {
+      letter.toggleClass('active');
+    }, 200);
+    time -= 185;
+  });
 });
