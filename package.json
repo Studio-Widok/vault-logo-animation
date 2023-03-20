@@ -9,9 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cash-dom": "^8.1.4"
-  },
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@babel/plugin-transform-runtime": "^7.21.0",
